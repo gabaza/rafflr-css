@@ -3,8 +3,8 @@ body {
     background-color: white;
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 .nav-container {
     width: 100%;
     height: 100px;
@@ -24,6 +24,20 @@ body {
     right: 20px;
     top: 30px;
 }
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+.content-container > img {
+    width: 280px;
+    height: auto;
+    margin: 20px auto;
+}
+
 
 
 
