@@ -49,6 +49,28 @@ h1 {
     line-height: 28px;
     font-size: 20px;
 }
+.buttons-box {
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.buttons-box > div {
+    border: 2px solid black;
+    width: 90px;
+    height: 40px;
+    margin-right: 20px;
+    background-color: #1BEE10;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+footer {
+    width: 100%;
+    height: 60px;
+    color: #1BEE10;
+    text-align: center;
+}
+
 
 
 
