@@ -33,11 +33,19 @@ h1 {
     text-align: center;
     color: #1BEE10;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-bottom: 10px;
 }
 .content-container > img {
     width: 280px;
     height: auto;
     margin: 20px auto;
+}
+.content-container > p {
+    background-color: #1BEE10;
+    border: 2px solid black;
+    width: 300px;
+    margin: 0 auto;
+    padding: 8px;
 }
 
 
