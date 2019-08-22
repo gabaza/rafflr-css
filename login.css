@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #1BEE10;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+main > img {
+    margin: 40% auto 25px auto;
+    
+}
+main > div {
+    margin: 0 auto;
+    border: .8px solid #005F46;
+    padding: 10px;
+}
+input {
+    border: 1px solid #005F46;
+    background-color: #1BEE10;
+    height: 30px;
+    margin-top: 8px;
+    font-size: 20px;
+}
+.button {
+    border: .8px solid #005F46;
+    margin: 15px auto;
+    width: 50%;
+    text-align: center;
+}
+footer {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
